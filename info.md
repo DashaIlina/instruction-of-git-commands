@@ -67,3 +67,4 @@ the code of commit can be found through the log command/
 
 > git {имя команды} --help
 
+[Pic](9a3e15.jpg)
