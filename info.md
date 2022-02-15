@@ -63,5 +63,7 @@ the code of commit can be found through the log command/
 
 > git chekout master
 
+Помощь:
 
+> git {имя команды} --help
 
