@@ -10,10 +10,26 @@
 
 > git config --global user.email some_email
 
-Присоединяем файл
+Присоединяем файл:
 
-> add.\info.md
+> git add.\info.md
 
-Присоединяем все файлы в папке
+Присоединяем все файлы в папке:
 
-> add. or add --all
+> git add. or add --all
+
+Добавить комментарий к изменениям:
+
+> git commit -m "Some text"
+
+Проверка изменений:
+
+> git status
+
+Просмотр всех изменений:
+
+> git log
+
+Просмотр отличий от предидущей версий:
+
+> git diff
