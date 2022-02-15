@@ -18,7 +18,7 @@
 
 Присоединяем все файлы в папке:
 
-> git add. or add --all
+> git add . or add --all
 
 ## Изменяем файл
 
@@ -61,10 +61,17 @@ the code of commit can be found through the log command/
 
 Вернуться в последнюю версию и продолжить изменение:
 
-> git chekout master
+> git checkout master
+
+**Убрать отображение неиспользованных файлов:**
+
+**создаем файл .gitignore и открываем его в репозитории и записываем все имена нежелательных файлов.**
+
+
 
 Помощь:
 
 > git {имя команды} --help
 
-[Pic](9a3e15.jpg)
+![pic](9a3e15.jpg)
+
