@@ -77,7 +77,11 @@ the code of commit can be found through the log command/
 
 ## Работа с ветками
 
+Команнда для вывода всех веток
+
 > git branch
+
+Создает ветку с именем name_branch
 
 > git branch name_branch
 
