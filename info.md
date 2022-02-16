@@ -81,7 +81,7 @@ the code of commit can be found through the log command/
 
 ## Работа с ветками
 
-Команнда для вывода всех веток
+Вывод всех веток
 
 > git branch
 
