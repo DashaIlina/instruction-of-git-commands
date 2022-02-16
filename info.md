@@ -26,9 +26,9 @@
 
 > git commit -m "Some text"
 
-Добавить комментарий к файлам с сообщением:
+Добавить комментарий и проиндексировать изменения без add:
 
-> git commit -am "сообщение"
+> git commit -a -m "сообщение"
 
 Проверка изменений:
 
@@ -93,11 +93,14 @@ the code of commit can be found through the log command/
 
 > git checkout name_branch
 
-Слияние коммитов ветки name_branch в текущую ветку.
+
+Добавить в текущую ветку изменения из ветки name_branch:
 
 > git merge name_branch
 
 > git log --graph
+
+Удалить ветку (даже если есть неперенесенные данные):
 
 > git branch -d name_branch
 
