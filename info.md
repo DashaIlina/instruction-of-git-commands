@@ -75,3 +75,15 @@ the code of commit can be found through the log command/
 
 ![pic](9a3e15.jpg)
 
+## Работа с ветками
+
+> git branch
+
+> git branch name_branch
+
+> git checkout name_branch
+
+> git branch -d name_branch
+
+> git merge name_branch
+
