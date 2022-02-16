@@ -89,10 +89,15 @@ the code of commit can be found through the log command/
 
 > git branch name_branch
 
+Переход в ветку name_branch
+
 > git checkout name_branch
 
-> git branch -d name_branch
+Слияние коммитов ветки name_branch в текущую ветку.
 
 > git merge name_branch
 
 > git log --graph
+
+> git branch -d name_branch
+
