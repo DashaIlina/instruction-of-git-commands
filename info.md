@@ -87,7 +87,11 @@ the code of commit can be found through the log command/
 
 > git checkout name_branch
 
+Удалить ветку (даже если есть неперенесенные данные):
+
 > git branch -d name_branch
+
+Добавить в текущую ветку изменения из ветки name_branch:
 
 > git merge name_branch
 
