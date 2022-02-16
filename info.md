@@ -98,6 +98,8 @@ the code of commit can be found through the log command/
 
 > git merge name_branch
 
+Визуальное отображение всех веток:
+
 > git log --graph
 
 Удалить ветку (даже если есть неперенесенные данные):
