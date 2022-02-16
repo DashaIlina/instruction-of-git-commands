@@ -34,6 +34,10 @@
 
 > git status
 
+Отменить коммит, но оставить изменения:
+
+> git reset --soft HEAD~
+
 ## Отслеживание состояния файла
 
 Просмотр всех изменений:
@@ -87,3 +91,4 @@ the code of commit can be found through the log command/
 
 > git merge name_branch
 
+> git log --graph
