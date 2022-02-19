@@ -150,3 +150,6 @@ the code of commit can be found through the log command/
 Вливаем свою версию на свой аккаунт
 
 В окне Github появляется функция pull request.
+
+## Связь, чтоб коротким кодом заливать изменения (origin - название репозитория удаленного, master - ветка):
+> git push --set-upstream origin master
